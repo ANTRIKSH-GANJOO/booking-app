@@ -6,14 +6,14 @@ func main() {
 
 	var conferencename = "Go Conference"
 
-	const total = 50
+	const total1 = 50
 
 	var remaining = 50
 
 	var bookings [50]string
 
 	fmt.Println("Hello", conferencename)
-	fmt.Println("We have total of", total, "tickets")
+	fmt.Println("We have total of", total1, "tickets")
 	fmt.Println("Remaining tickets", remaining)
 
 	var username string
