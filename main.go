@@ -16,6 +16,8 @@ func main() {
 	fmt.Println("We have total of", total1, "tickets")
 	fmt.Println("Remaining tickets", remaining)
 
+	greet("conference")
+
 	var username string
 
 	var usertickets int
@@ -34,4 +36,9 @@ func main() {
 
 	fmt.Printf("%v tickets remaining for %v\n", remaining, conferencename)
 
+}
+
+func greet(conf string) {
+	fmt.Printf("Hi this is a separate function %v
+	\n", conf)
 }
