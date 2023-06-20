@@ -39,5 +39,6 @@ func main() {
 }
 
 func greet(conf string) {
-	fmt.Printf("Hi this is a separate function %v\n", conf)
+	fmt.Printf("Hi this is a separate function %v
+	\n", conf)
 }
